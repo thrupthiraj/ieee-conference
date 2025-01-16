@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="/images/reva-logo.webp" alt="Reva Logo" loading="lazy"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="committee.html">COMMITTEE</a></li>
+                    <li><a href="program.html">PROGRAM</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>CONTACT</h1>
+
+    </section>
+    <!-- ------CONtact---- -->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.720659575277!2d77.63461180000003!3d13.116874500000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae191736187a37%3A0x3092096ba7fb4c9b!2sREVA%20UNIVERSITY!5e0!3m2!1sen!2sin!4v1736836232586!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="con-us">
+        <div class="row">
+            <div class="col-con">
+                <div>
+                    <i class="fa-solid fa-home"></i>
+                    <span>
+                        <h5>uhseifhjiesf</h5>
+                        <p>fjaeuhfueafheaoiufhaueohf</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>uh</h5>
+                        <p>9876543210</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>mailme123@gmai.com</h5>
+                        <p>fjaeuhfueafheaoiufhaueohf</p>
+                    </span>
+                </div>
+            </div>
+            <div class="col-con">
+<form action="con.php" method="post">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="E-mail" required> 
+    <input type="text" name="subject" placeholder="subject" required>
+    <textarea rows="8" name="message" placeholder="Message"></textarea>
+    <button type="submit" class="hero-btn red-btn">Send</button>
+</form>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About-Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi pariatur ut repellat, quos accusantium ab
+            aut <br>
+            molestiae reprehenderit, esse a officiis doloribus sapiente cumque, voluptatibus vel sequi iusto doloremque
+            animi.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>lorem adhjkawhdkahd</p>
+    </section>
+
+
+    <!-- ---------------- toggle menu_________ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
